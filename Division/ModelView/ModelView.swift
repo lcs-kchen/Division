@@ -6,9 +6,9 @@
 //
 
 import Foundation
+@Observable
 
 class DivisionViewModel {
-    
     //Mark: Stored Properties
     var providedDividend: String
     var providedDivsor: String
@@ -34,9 +34,9 @@ class DivisionViewModel {
     
     //Mark: Initializer
     init(
-        providedDividend: String,
-        providedDivsor: String,
-        recoverySuggestion: String
+        providedDividend: String = "",
+        providedDivsor: String = "",
+        recoverySuggestion: String = ""
     ) {
         self.providedDividend = providedDividend
         self.providedDivsor = providedDivsor

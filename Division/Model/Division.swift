@@ -15,12 +15,16 @@ struct Division {
     
     
     //Mark: Computed Properties
-    var quotient: Int {
-        return dividend / divisor
-    }
     
-    var remainder: Int {
-        return dividend % divisor
+   
+            var quotient: Int {
+                return dividend / divisor
+            }
+        
+       
+            var remainder: Int {
+                return dividend % divisor
+            }
+       
     }
-}
 
